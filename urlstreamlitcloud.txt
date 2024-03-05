@@ -1,0 +1,1 @@
+url streamlit cloud : https://dashboardbangkitibnu.streamlit.app/
