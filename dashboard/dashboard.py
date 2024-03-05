@@ -13,7 +13,7 @@ px.defaults.color_continuous_scale = 'reds'
 #load data
 @st.cache_resource
 def load_data():
-    dataframe_hour = pd.read_csv("../data/hour.csv")
+    dataframe_hour = pd.read_csv("https://raw.githubusercontent.com/HolyEgg/bangkit-proyek-analisis-data/main/data/hour.csv")
     return dataframe_hour
 
 dataframe_hour = load_data()
