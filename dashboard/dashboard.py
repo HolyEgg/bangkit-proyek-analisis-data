@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from PIL import Image
 import plotly.express as px
 import seaborn as sea
 import streamlit as st
@@ -22,8 +21,7 @@ dataframe_hour = load_data()
 st.title("Sewa Sepeda Dashboard")
 
 #Sidebar
-img = Image.open('../asset/sepeda.png')
-st.sidebar.image(img)
+st.sidebar.image("./asset/sepeda.png")
 
 st.sidebar.title("Sewa Sepeda")
 
